@@ -1,7 +1,24 @@
 {
-  "name": "react_360_ts",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-360-ts",
+  "author": "Kevin O'Rourke <orourke.kevin@gmail.com>",
+  "description": "Utilities & helpers for increased type safety in a React + Redux application",
+  "version": "1.0.0",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "360",
+    "vr",
+    "boilerplate",
+    "ts",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orourkek/react-360-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orourkek/react-360-ts/issues"
+  },
   "scripts": {
     "start": "node node_modules/react-360/scripts/packager.js",
     "bundle": "node node_modules/react-360/scripts/bundle.js",
