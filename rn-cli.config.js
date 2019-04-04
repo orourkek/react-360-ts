@@ -24,6 +24,14 @@ var config = {
   getProvidesModuleNodeModules() {
     return ['react-native', 'react-360'];
   },
+
+  getTransformModulePath() {
+    return require.resolve('react-native-typescript-transformer');
+  },
+
+  getSourceExts() {
+    return ['ts', 'tsx'];
+  },
 };
 
 function getRoots() {
